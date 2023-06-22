@@ -1,0 +1,123 @@
+.signform-container {
+  margin: 4rem 6rem;
+  color: #2a2a2a;
+}
+
+.signform-container form {
+  padding-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+}
+
+.signform-container input {
+  height: 3rem;
+  padding: 0 1rem;
+  margin-bottom: 2rem;
+  border-radius: 0.3rem;
+  border: 1px solid #2a2a2a;
+}
+
+.alt-login {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.alt-login i {
+  color: #222;
+  cursor: pointer;
+  font-size: 2rem;
+  padding-top: 2rem;
+}
+
+.alt-login i:hover {
+  color: #01959a;
+}
+
+.signup-btn {
+  background-color: #222;
+  color: #fff;
+}
+
+.signup-btn:hover {
+  color: #222;
+  background-color: #01959a;
+}
+
+.text {
+  padding-top: 2rem;
+  text-decoration: underline;
+}
+
+/*.check {
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+}*/
+
+/*input[type="checkbox"] {
+  appearance: none;
+  -webkit-appearance: none;
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  padding-top: 10px;
+  display: flex;
+  background-color: #d5d5d5;
+  border-radius: 3px;
+  cursor: pointer;
+  outline: none;
+}
+
+label {
+  color: #4c4c4c;
+  font-size: 12px;
+  font-weight: 300px;
+  cursor: pointer;
+  align-items: start;
+  padding-left: 50px;
+}
+
+/*input[type="checkbox"]:after {
+  font-weight: 700;
+  content: "\f00c";
+  font-size: 40px;
+  color: #fff;
+  display: none;
+}
+
+input[type="checkbox"]:hover {
+  background-color: #a5a5a5;
+}
+
+input[type="checkbox"]:checked {
+  background-color: #222;
+}
+
+input[type="checkbox"]:checked:after {
+  display: block;
+}*/
+
+@media screen and (max-width: 850px) {
+  .signform-container {
+    margin: 4rem 2rem;
+  }
+
+  .signform-container form {
+    padding-top: 2rem;
+    width: 90%;
+  }
+
+  /*label {
+    padding-left: 2rem;
+  }*/
+}
